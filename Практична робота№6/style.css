@@ -1,0 +1,38 @@
+#a:link {
+    color: green;
+ }
+#b:link {
+    color: orange;
+ }
+#c:link {
+   color: red;
+ }
+ #d:link {
+    color: blue;
+ }
+ #a:visited {            
+    color: black;
+ }
+ #b:visited {   
+    color: fuchsia;
+ }
+ #c:visited {
+    color: grey;
+ }
+ #d:visited {
+    color: saddlebrown;
+ } h1 {
+    text-align: center;
+    font-size: 120%;
+}
+
+body { 
+    margin: 0; 
+    padding: 0; 
+  } 
+
+div {
+   display: flex;
+   flex-wrap: wrap;
+  }
+  

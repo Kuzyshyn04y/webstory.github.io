@@ -1,0 +1,43 @@
+.info {
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    border: 3px solid brown;
+    text-align: center;
+  }
+
+  .info:hover {
+    background-color: magenta;
+    color: blue;
+  }
+   .info:focus {
+    background-color: yellow;
+    color: magenta; 
+   }
+   div {
+    border: 1px solid black;
+   }
+   .row > div:first-child {
+    color: black;
+    background-color: gray;
+   }
+   .row > div:nth-child(2){
+    color: yellow;
+    background-color: green;
+   }
+   .row > div:nth-child(3) {
+    background-color: blueviolet;
+    color: pink;
+   }
+   .row > div:nth-child(4)  {
+    color: aqua;
+    background-color: black;
+    border: 1px solid aqua;
+
+   }
+   .row > div:nth-child(5) {
+    color: lawngreen;
+    background-color: red;
+  }

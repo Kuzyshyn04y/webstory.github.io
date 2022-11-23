@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+        }
+        #Nazad.n {
+            font-style: italic;
+        }
+        h2 {
+            text-align: center;
+        }
+    
+    
+    
+        .name li:nth-child(odd) {
+            background-color: gray; 
+        }
+        .name li:nth-child(even) {
+            background-color: white;
+        }
+        ol li :nth-child(3), ol li :nth-child(5) {
+            cursor: pointer;
+        }
+        ol li :nth-child(4) {
+           background-color: #875148;
+        }
+        

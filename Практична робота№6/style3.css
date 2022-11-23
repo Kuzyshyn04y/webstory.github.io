@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+
+th, td {
+    text-align: center;
+    border: 3px solid black;
+    width: 100px;
+}
+.frnd:nth-child(odd) {
+    background-color: gray;
+}
+.frnd:nth-child(even) {
+    background-color: white;
+}
+#Nazad.f {
+    font-style: italic; 
+}
+h2 {
+    text-align: center;
+}
+#info {
+    text-align: center;
+    font-weight: bold;
+    background-color: green;
+}
+#last td {
+    text-align: right;
+}
+@media (max-width: 768px){
+    th{
+        font-size: 110%;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px){
+    th{
+        font-size: 120%;
+    }
+    td{
+        font-size: 110%;
+    }
+}
+@media (min-width: 992px){
+    th{
+        font-size: 130%;
+    }
+    td{
+        font-size: 120%;
+    }
+}
