@@ -16,7 +16,7 @@
 #d {
     background-color: aqua;
     color: black;
-    height: 450px;
+    height: 500px;
 }
 div {
     width: 320px;
@@ -33,5 +33,46 @@ h4 {
     height: 320px;
 }
 #piz {
-    top: 420px;
+    top: 470px;
 }
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+.dec {
+    font-family: 'Poppins', sans-serif;
+}
+.hold {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .col-xs-12 {
+        width: 100%;
+    }
+}
+
