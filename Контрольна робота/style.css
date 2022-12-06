@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 #a {
     background-color: yellow;
     color: black;
@@ -13,7 +16,7 @@
 #d {
     background-color: aqua;
     color: black;
-    height:400px;
+    height: 400px;
 }
 div {
     width: 320px;
@@ -30,5 +33,5 @@ h4 {
     height: 320px;
 }
 #piz {
-top:370px;
+    top: 370px;
 }
