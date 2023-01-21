@@ -1,94 +1,108 @@
 <!doctype html>
 <html lang="uk">
 
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width device-width, initial-scale 1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Друзі</title>
-  <style>
-    h1 {
-        text-align: center;
-        font-size: 22px;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width device-width, initial-scale 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Друзі</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        table {
+            border: 3px solid black;
+
+        }
 
 
-    th, td {
-        text-align: center;
-        border: 3px solid black;
-        width: 100px;
-    }
-    .frnd:nth-child(odd) {
-        background-color: gray;
-    }
-    .frnd:nth-child(even) {
-        background-color: white;
-    }
-    #Nazad.f {
-        font-style: italic;
-    }
-    h2 {
-        text-align: center;
-    }
-    #info {
-        text-align: center;
-        font-weight: bold;
-        background-color: green;
-    }
-    #last td {
-        text-align: right;
-    }
+        th,
+        td {
+            border-spacing: 0px;
+            border: 2px solid black;
+            padding: 0px;
 
-  </style>
- </head>
+        }
 
- <body>
+        .frnd:nth-child(odd) {
+            background-color: gray;
+        }
+
+        .frnd:nth-child(even) {
+            background-color: white;
+        }
+
+        #Nazadf {
+            font-style: italic;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #info {
+            text-align: center;
+            font-weight: bold;
+            background-color: green;
+        }
+
+        .last {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
     <h1>
         Друзі Кузишина Дмитра Мирославовича
     </h1>
 
-   <p id="Nazad.f"><a href="https://kuzyshyn04y.github.io/webstory.github.io/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%BD%D0%B0%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%964/index.html">Назад на головну</a></p>
+    <p id="Nazadf"><a href="index.html">Назад
+            на головну</a></p>
 
-  <h2>
-   Мої друзі
-  </h2>
-<table>
-<caption>Друзі</caption>
-<tr id="info">
-    <th>Прізвище </th>
-    <th>Ім'я</th>
-    <th>Дата народження</th>
-    <th>Адреса проживання</th>
-    <th>Контактний номер</th>
-</tr>
-<tr class="frnd">
-    <td>Рашкевич</td>
-    <td>Святослав</td>
-    <td>08.08.2005</td>
-    <td>вул.Лесі Українки 12</td>
-    <td>0957895364</td>
-</tr>
-<tr class="frnd">
-    <td>Дутчак</td>
-    <td>Віталій</td>
-    <td>16.04.2003</td>
-    <td>вул.Нова 52</td>
-    <td>0678925467</td>
-</tr>
-<tr class="frnd">
-    <td>Купчак</td>
-    <td>Андрій</td>
-    <td>12.09.2004</td>
-    <td>вул.Грушевського 7</td>
-    <td>0635123263</td>
-</tr>
-<tr id="last" class="frnd">
-    <td>Сливоцький</td>
-    <td>Денис</td>
-    <td>28.06.2005</td>
-    <td>вул.Грушевського 22</td>
-    <td>0987236512</td>
-</tr>
-</table>
- </body>
+    <h2>
+        Мої друзі
+    </h2>
+    <table>
+        <caption>Друзі</caption>
+        <tr id="info">
+            <th>Прізвище </th>
+            <th>Ім'я</th>
+            <th>Дата народження</th>
+            <th>Адреса проживання</th>
+            <th class="last">Контактний номер</th>
+        </tr>
+        <tr class="frnd">
+            <td>Рашкевич</td>
+            <td>Святослав</td>
+            <td>08.08.2005</td>
+            <td>вул.Лесі Українки 12</td>
+            <td class="last">0957895364</td>
+        </tr>
+        <tr class="frnd">
+            <td>Дутчак</td>
+            <td>Віталій</td>
+            <td>16.04.2003</td>
+            <td>вул.Нова 52</td>
+            <td class="last">0678925467</td>
+        </tr>
+        <tr class="frnd">
+            <td>Купчак</td>
+            <td>Андрій</td>
+            <td>12.09.2004</td>
+            <td>вул.Грушевського 7</td>
+            <td class="last">0635123263</td>
+        </tr>
+        <tr class="frnd">
+            <td>Сливоцький</td>
+            <td>Денис</td>
+            <td>28.06.2005</td>
+            <td>вул.Грушевського 22</td>
+            <td class="last">0987236512</td>
+        </tr>
+    </table>
+</body>
+
 </html>
