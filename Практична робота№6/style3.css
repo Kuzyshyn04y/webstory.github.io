@@ -3,50 +3,62 @@ h1 {
     font-size: 22px;
 }
 
-
-th, td {
-    text-align: center;
+table {
     border: 3px solid black;
-    width: 100px;
+
 }
-.frnd:nth-child(odd) {
+
+th,
+td {
+    border-spacing: 0px;
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.frnd:nth-child(even) {
     background-color: gray;
 }
-.frnd:nth-child(even) {
-    background-color: white;
+
+#Nazadf {
+    font-style: italic;
 }
-#Nazad.f {
-    font-style: italic; 
-}
+
 h2 {
     text-align: center;
 }
+
 #info {
     text-align: center;
     font-weight: bold;
     background-color: green;
 }
-#last td {
+
+.last {
     text-align: right;
 }
-@media (max-width: 768px){
-    th{
+
+@media (max-width: 768px) {
+    th {
         font-size: 110%;
     }
 }
-@media (max-width: 992px) and (min-width: 768px){
-    th{
+
+@media (max-width: 992px) and (min-width: 768px) {
+    th {
         font-size: 120%;
     }
-    td{
+
+    td {
         font-size: 110%;
     }
 }
-@media (min-width: 992px){
-    th{
+
+@media (min-width: 992px) {
+    th {
         font-size: 130%;
     }
-    td{
+
+    td {
         font-size: 120%;
     }
 }
